@@ -1,0 +1,51 @@
+:root { 
+  --gap: 20px; 
+  --gray: #ddd; 
+  --dark: #333; 
+}
+
+* {
+ box-sizing: border-box;
+}
+
+main { 
+ max-width: 800px; 
+ margin: auto; 
+ padding: var(--gap); 
+ display: flex; 
+ flex-direction: column; 
+ gap: 40px; 
+}
+
+nav ul {
+ display: flex;
+ justify-content: center;
+ gap: var(--gap);
+ list-style: none;
+ padding: 0;
+}
+
+#pourquoi, #temoignages {
+ display: flex;
+ flex-wrap: wrap;
+ gap: var(--gap);
+}
+
+article {
+ flex: 1 1 300px;
+ border: 1px solid var(--gray);
+ padding: 15px;
+}
+
+blockquote {
+ border-left: 5px solid var(--dark);
+ padding-left: 15px;
+ font-style: italic;
+ margin: 0;
+}
+
+footer {
+ border-top: 1px solid var(--gray);
+ padding-top: 20px;
+ text-align: center;
+}

@@ -1,0 +1,3 @@
+J'ai choisi une approche qui sépare le contenu et la mise en page. En ciblant les balises <nav>, <article>, <footer>, le style est lié à la structure naturelle de la page, ce qui rend le code plus lisible et facile à maintenir. J'ai limité l'usage de classes, seulement où une mise en page spécifique était indispensable, évitant ainsi de surcharger inutilement le fichier CSS. Je n'ai pas modifié le code html du fichier de base.
+
+L'emploi de Flexbox permet une adaptation c'est-à-dire que le layout s'ajuste seul selon la largeur de l'écran. Cette méthode garantit que la page reste cohérente et lisible en toutes circonstances, tout en conservant une base de code légère.
